@@ -80,7 +80,7 @@
                 <version>${maven-plugins-version}</version>
                 <configuration>
                     <includes>
-                        <include>**/CucumberTestSuite*.java</include>
+                        <include>**/CucumberTestSuite.java</include>
                     </includes>
                 </configuration>
             </plugin>
