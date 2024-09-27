@@ -12,7 +12,7 @@ COPY src ./src
 RUN apt-get update && apt-get install -y maven
 
 # Construir el proyecto
-RUN mvn install -DskipTests
+#RUN mvn install -DskipTests
 
 # Ejecutar las pruebas
 CMD ["mvn", "verify"]

@@ -1,0 +1,3 @@
+com\example\tasks\ApiSteps.class
+com\example\runners\CucumberTestSuite.class
+com\example\steps\ApiStepDefinitions.class
