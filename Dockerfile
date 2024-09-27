@@ -7,7 +7,7 @@ WORKDIR /app
 # Copiar el archivo pom.xml y los directorios necesarios
 COPY pom.xml .
 COPY src ./src
-
+COPY target ./target
 # Instalar Maven
 RUN apt-get update && apt-get install -y maven
 
