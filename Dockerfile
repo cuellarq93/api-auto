@@ -12,7 +12,7 @@ COPY src ./src
 RUN apt-get update && apt-get install -y maven
 
 # Construir el proyecto
-RUN mvn install
+RUN mvn dependency:go-offline
 
 # Ejecutar las pruebas
 CMD ["mvn", "verify"]
